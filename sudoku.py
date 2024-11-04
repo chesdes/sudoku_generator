@@ -54,7 +54,7 @@ def create_sudoku():
             mistakes = 0
             """ --------
                 The mistakes variable is necessary to count the number of failures 
-                when selecting a number, but, unlike global_mistakes, it is limited to one line. 
+                when selecting a number, but, unlike global_mistakes, it is limited to one row. 
                 If the magnitude of the failures is equal to the length of the array with numbers (arr), 
                 the array is generated anew (since in this case it is impossible to find cells for the remaining digits).
             """
